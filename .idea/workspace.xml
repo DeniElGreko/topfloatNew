@@ -1,88 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7357c073-1f1c-44c6-87f1-c9c4745ba678" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/FoundryMonolineOT3-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/FoundryMonolineOT3-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/FoundryMonolineOT3-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/OpenSans-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/OpenSans-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/OpenSans-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/OpenSans.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/1-big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/large/images/logotype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/middle/images/logotype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/minimal/images/logotype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/small/images/logotype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/smaller/images/logotype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/testProject_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testProject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.yo-rc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/FoundryMonolineOT3-Bold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/OpenSans.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jade/block_gallery/block_gallery.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jade/block_header/block_header.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jade/block_menu/block_menu.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jade/block_navigation/block_navigation.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jade/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jade/radiobuttons-for-date-filter/buttons.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/date-filter/date-filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/date-filter/selector-create-background-month" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/date-filter/selector-gallery-creator.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/fonts/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/gallery-effects/gallery-effects.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/large/block_gallery/block_gallery.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/large/block_header/block_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/large/block_menu/block_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/large/block_navigation/block_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/large/fonts/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/large/min1600px.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/middle/block_gallery/block_gallery.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/middle/block_header/block_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/middle/block_menu/block_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/middle/block_navigation/block_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/middle/fonts/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/middle/min1280px.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/minimal/block_gallery/block_gallery.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/minimal/block_header/block_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/minimal/block_menu/block_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/minimal/block_navigation/block_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/minimal/fonts/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/minimal/max768px.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/small/block_gallery/block_gallery.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/small/block_header/block_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/small/block_menu/block_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/small/block_navigation/block_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/small/fonts/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/small/min1024px.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/smaller/block_gallery/block_gallery.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/smaller/block_header/block_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/smaller/block_menu/block_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/smaller/block_navigation/block_navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/smaller/fonts/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/smaller/min768px.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.babel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/test.js" />
-    </list>
+    <list default="true" id="7357c073-1f1c-44c6-87f1-c9c4745ba678" name="Default" comment="" />
     <ignored path="testProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -331,12 +250,12 @@
       <workItem from="1459768338839" duration="52603000" />
       <workItem from="1459830809921" duration="64157000" />
       <workItem from="1460040537284" duration="17664000" />
-      <workItem from="1460090452884" duration="2907000" />
+      <workItem from="1460090452884" duration="3488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234220000" />
+    <option name="totallyTimeSpent" value="234801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,7 +267,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19642857" sideWeight="0.4909091" order="0" side_tool="false" content_ui="combo" />
