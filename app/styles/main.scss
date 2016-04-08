@@ -1,0 +1,20 @@
+@media screen and (min-width:1600px) {
+    @import "large/min1600px.scss";
+}
+@media screen and (min-width:1280px) and (max-width:1599px) {
+    @import "middle/min1280px.scss";
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    @import "small/min1024px.scss";
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    @import "smaller/min768px.scss";
+}
+@media screen and (max-width:768px) {
+    @import "minimal/max768px.scss";
+}
+@import "date-filter/date-filter.scss";
+@import "gallery-effects/gallery-effects.scss";
+.body{
+    overflow-x:hidden;
+}

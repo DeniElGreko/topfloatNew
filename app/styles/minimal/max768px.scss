@@ -1,0 +1,23 @@
+@import "fonts/fonts.scss";
+@import "block_menu/block_menu.scss";
+@import "block_header/block_header.scss";
+@import "block_gallery/block_gallery.scss";
+@import "block_navigation/block_navigation.scss";
+
+.body {
+    position:relative;
+    width:100%;
+    font-size:12px;
+    font-family: "FoundryMonolineOT3-Bold";
+    font-weight:normal;
+}
+
+.wrapper {
+    position:absolute;
+    margin-left:80px;
+    box-sizing:border-box;
+
+
+}
+
+

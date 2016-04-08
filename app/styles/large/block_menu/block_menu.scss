@@ -1,0 +1,58 @@
+.menu {
+    position:relative;
+    height:50px;
+    width:100%;
+    border:1px solid #e4e4e4;
+    box-sizing:border-box;
+    font-weight:bold;
+    font-size:0.9em;
+    font-family: "OpenSans-Regular";
+    &__logotype {
+        border-right:1px solid #e4e4e4;
+        width:110px;
+        height:100%;
+        &-img {
+            height:40px;
+            width:90px;
+            margin:0.4em;
+        }
+    }
+    &__main-list {
+        width:510px;
+        box-sizing:border-box;
+        display:block;
+        height:100%;
+        position:absolute;
+        left:110px;
+        top:0;
+        &-item {
+            cursor: pointer;
+            display:inline-block;
+            box-sizing:border-box;
+            border-right:1px solid #e4e4e4;
+            height:100%;
+            padding:1.4em 2.2em;
+            &:hover {
+                color:rgba(239,83,52,.8);
+            }
+        }
+
+    }
+    &__info-list {
+        display:block;
+        height:100%;
+        position:absolute;
+        top:0;
+        right:0;
+        &-item {
+            cursor: pointer;
+            display:inline-block;
+            box-sizing:border-box;
+            border-left:1px solid #e4e4e4;
+            height:100%;
+            padding:1.5em 2.5em;
+
+        }
+    }
+}
+

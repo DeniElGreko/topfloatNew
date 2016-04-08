@@ -1,0 +1,38 @@
+.header {
+    margin-top:40px;
+    margin-bottom:0;
+    position:relative;
+    box-sizing:border-box;
+    width:400px;
+    &__name {
+        display:block;
+        font-size:2.8em;
+        font-weight:normal;
+        font-family: "OpenSans-Regular";
+        box-sizing:border-box;
+        width:100%;
+    }
+    &__object-name {
+        font-size:1.1em;
+        padding-right:1em;
+        display:inline-block;
+        box-sizing:border-box;
+    }
+    &__return-link {
+        cursor: pointer;
+        float:right;
+        margin-left:1em;
+        display:inline-block;
+        box-sizing:border-box;
+        color:#1EA7BB;
+        border-bottom:1px solid #1EA7BB;
+        padding-right:1em;
+        &:hover {
+            border-color:white;
+        }
+        &:after {
+            content:" объекта";
+            display:inline-block;
+        }
+    }
+}

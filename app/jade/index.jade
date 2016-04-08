@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+    head
+        title test
+        meta( charset="utf-8")
+        link( rel="stylesheet", href="styles/reset.css")
+        link( rel="stylesheet", href="styles/main.css")
+        link(rel="stylesheet", href="styles/colorbox.css")
+        script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js")
+        script(type="text/javascript", src="scripts/jquery.colorbox-min.js")
+        script jQuery(document).ready(function(){jQuery('a.image').colorbox({innerWidth:700, innerHeight:500, scalePhotos:true});});
+    body.body
+        include radiobuttons-for-date-filter/buttons
+        include block_menu/block_menu
+        include block_navigation/block_navigation
+        div.wrapper
+            include block_header/block_header
+            include block_gallery/block_gallery

@@ -1,0 +1,26 @@
+.gallery {
+    position:absolute;
+    margin-top:2em;
+    box-sizing:border-box;
+    width:480px;
+    &__header {
+        font-size:1.1em;
+        padding-top:1em;
+    }
+    &__content-definition {
+        display:block;
+        padding:1em 0;
+        line-height:1.8em;
+        width:470px;
+    }
+    &__list {
+        display:block;
+        margin-right:0px;
+        &-item {
+            display:inline-block;
+            margin:0 6px 6px 0;
+            width:150px;
+            height:100px;
+        }
+    }
+}

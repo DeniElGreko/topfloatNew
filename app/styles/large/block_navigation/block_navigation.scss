@@ -1,0 +1,44 @@
+.navigation {
+    font-size:1.2em;
+    position:absolute;
+    right:0;
+    margin-top:74px;
+    margin-right:320px;
+    width:202px;
+    box-sizing:border-box;
+    &__select-year {
+        display:block;
+        width:100%;
+        box-sizing:border-box;
+        &-item {
+            box-sizing:border-box;
+            width:33%;
+            display:inline-block;
+            padding:1em;
+            cursor: pointer;
+            &:hover {
+                color:rgba(239,83,52,.8);
+            }
+        }
+    }
+    &__select-month {
+        display:block;
+        &-item {
+            cursor: pointer;
+            width:100%;
+            display:block;
+            box-sizing:border-box;
+            text-align:right;
+        }
+    }
+}
+.hover-element {
+    height:100%;
+    display:inline-block;
+    padding:0.4em;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+label {
+    cursor: pointer;
+}

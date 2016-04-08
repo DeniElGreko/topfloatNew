@@ -1,0 +1,21 @@
+.flip {
+    overflow:hidden;
+}
+.flip>.front {
+    position:absolute;
+    transform:perspective(600px) rotateX(0deg);
+    backface-visibility:hidden;
+    transition:transform .3s linear 0s;
+}
+.flip>.back {
+    position:absolute;
+    transform:perspective(600px) rotateX(-180deg);
+    backface-visibility:hidden;
+    transition:transform .3s linear 0s;
+}
+.flip:hover>.front {
+    transform:perspective(600px) rotateX(180deg);
+}
+.flip:hover>.back {
+    transform:perspective(600px) rotateX(0deg);
+}
