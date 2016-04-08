@@ -19,7 +19,7 @@ gulp.task('styles', () => {
         }).on('error', $.sass.logError))
         .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
         .pipe($.sourcemaps.write())
-        .pipe(gulp.dest('.tmp/styles'))
+        .pipe(gulp.dest('dist/styles'))
         .pipe(reload({stream: true}));
 });
 
@@ -29,7 +29,7 @@ gulp.task('scripts', () => {
         .pipe($.sourcemaps.init())
         .pipe($.babel())
         .pipe($.sourcemaps.write('.'))
-        .pipe(gulp.dest('.tmp/scripts'))
+        .pipe(gulp.dest('dist/scripts'))
         .pipe(reload({stream: true}));
 });
 
@@ -57,7 +57,7 @@ gulp.task('jade', () => {
         .pipe($.jade({
             locals: YOUR_LOCALS
         }))
-        .pipe(gulp.dest('.tmp/'))
+        .pipe(gulp.dest('dist/'))
         .pipe(reload({ stream: true }));
 
 });
@@ -82,7 +82,7 @@ gulp.task('fonts', () => {
     return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {
         })
         .concat('app/fonts/**/*'))
-        .pipe(gulp.dest('.tmp/fonts'))
+        .pipe(gulp.dest('dist/fonts'))
         .pipe(gulp.dest('dist/fonts'));
 });
 
@@ -95,14 +95,14 @@ gulp.task('extras', () => {
     }).pipe(gulp.dest('dist'));
 });
 
-gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
+gulp.task('clean', del.bind(null, ['dist']));
 
 gulp.task('serve', ['jade', 'styles', 'scripts', 'fonts'], () => {
     browserSync({
         notify: false,
         port: 9000,
         server: {
-            baseDir: ['.tmp'],
+            baseDir: ['dist'],
             routes: {
                 '/bower_components': 'bower_components'
             }
@@ -111,9 +111,9 @@ gulp.task('serve', ['jade', 'styles', 'scripts', 'fonts'], () => {
 
     gulp.watch([
         'app/jade/**/*.jade',
-        '.tmp/scripts/**/*.js',
-        'app/images/**/*',
-        '.tmp/fonts/**/*'
+        'app/scripts/**/*.js',
+        'app/images/**/*.+',
+        'app/fonts/**/*'
     ]).on('change', reload);
 
     gulp.watch('app/jade/**/*.jade', ['jade']);
@@ -128,7 +128,7 @@ gulp.task('serve:dist', () => {
         notify: false,
         port: 9000,
         server: {
-            baseDir: ['.tmp']
+            baseDir: ['dist']
         }
     });
 });
@@ -141,7 +141,7 @@ gulp.task('serve:test', ['scripts'], () => {
         server: {
             baseDir: 'test',
             routes: {
-                '/scripts': '.tmp/scripts',
+                '/scripts': 'dist/scripts',
                 '/bower_components': 'bower_components'
             }
         }
