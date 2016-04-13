@@ -10,7 +10,14 @@ html(lang='en')
         script(type="text/javascript", src="scripts/jquery.colorbox-min.js")
         script jQuery(document).ready(function(){jQuery('a.image').colorbox({innerWidth:700, innerHeight:500, scalePhotos:true});});
     body.body
-        include radiobuttons-for-date-filter/buttons
+        mixin input(listYear,listMonth)
+             -var listYear;
+             -var listMonth=["january","february","march","april","may","june","july","august","september","october","november","december"];
+             -each month in listMonth
+                 input(type="radio" name="month" class="radiobutton" id=month+listYear)
+        +input(2013,listMonth)
+        +input(2014,listMonth)
+        +input(2015,listMonth)
         include block_menu/block_menu
         include block_navigation/block_navigation
         div.wrapper

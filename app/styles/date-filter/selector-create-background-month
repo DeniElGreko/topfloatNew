@@ -1,434 +1,54 @@
-
-
-#january2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_january2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
+@mixin create-bg-month {
+    background-color: #ef5334;
+    color: white;
+    position: relative;
     &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
+        position: absolute;
+        left: -15px;
+        top: 0px;
+        content: "";
+        display: inline-block;
+        height: 0px;
+        width: 0px;
+        border-top: 16px solid transparent;
+        border-right: 16px solid #ef5334;
+        border-bottom: 16px solid transparent;
     }
 }
-#january2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_january2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
+@each $month, $year in (august: 2013,
+                        september: 2013,
+                        october: 2013,
+                        november: 2013,
+                        december: 2013) {
+    ##{$month}#{$year}:checked ~ .navigation .navigation__select-month_#{$year} .navigation__select-month-item_#{$month}#{$year} .hover-element {
+                                                                                                                                @include create-bg-month;
+                                                                                                                            }
+}
+@each $month, $year in (january: 2014,
+                        february: 2014,
+                        march: 2014,
+                        april:2014,
+                        may: 2014,
+                        june: 2014,
+                        july: 2014,
+                        august: 2014,
+                        september: 2014,
+                        october: 2014,
+                        november: 2014,
+                        december: 2014) {
+    ##{$month}#{$year}:checked ~ .navigation .navigation__select-month_#{$year} .navigation__select-month-item_#{$month}#{$year} .hover-element {
+        @include create-bg-month;
     }
 }
-
-#february2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_february2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
+@each $month, $year in (january: 2015,
+                        february: 2015,
+                        march: 2015,
+                        april: 2015,
+                        may: 2015,
+                        june: 2015,
+                        july: 2015,
+                        august: 2015) {
+    ##{$month}#{$year}:checked ~ .navigation .navigation__select-month_#{$year} .navigation__select-month-item_#{$month}#{$year} .hover-element {
+        @include create-bg-month;
     }
 }
-#february2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_february2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-
-#march2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_march2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#march2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_march2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-
-#april2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_april2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#april2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_april2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-
-#may2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_may2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#may2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_may2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-
-#june2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_june2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#june2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_june2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-
-#july2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_july2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#july2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_july2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#august2013:checked~.navigation .navigation__select-month_2013 .navigation__select-month-item_august2013 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#august2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_august2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#august2015:checked~.navigation .navigation__select-month_2015 .navigation__select-month-item_august2015 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#september2013:checked~.navigation .navigation__select-month_2013 .navigation__select-month-item_september2013 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#september2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_september2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#october2013:checked~.navigation .navigation__select-month_2013 .navigation__select-month-item_october2013 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#october2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_october2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#november2013:checked~.navigation .navigation__select-month_2013 .navigation__select-month-item_november2013 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#november2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_november2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#december2013:checked~.navigation .navigation__select-month_2013 .navigation__select-month-item_december2013 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-#december2014:checked~.navigation .navigation__select-month_2014 .navigation__select-month-item_december2014 .hover-element {
-    background-color:#ef5334;
-    color:white;
-    position:relative;
-    &:before {
-        position:absolute;
-        left:-15px;
-        top:0px;
-        content:"";
-        display:inline-block;
-        height:0px;
-        width:0px;
-        border-top:16px solid transparent;
-        border-right:16px solid #ef5334;
-        border-bottom:16px solid transparent;
-    }
-}
-
