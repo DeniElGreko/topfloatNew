@@ -97,7 +97,7 @@ gulp.task('extras', () => {
 
 gulp.task('clean', del.bind(null, ['dist']));
 
-gulp.task('serve', ['jade','images', 'styles', 'scripts', 'fonts'], () => {
+gulp.task('serve', ['jade', 'styles', 'images', 'scripts', 'fonts'], () => {
     browserSync({
         notify: false,
         port: 9000,
